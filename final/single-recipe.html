@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe || Final</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="./assets/recipes/recipe-4.jpeg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>appam</h2>
+            <p>
+              Appam is a tasty white Indian pancake crisp on the sides with a soft centre. 
+              appam or palappam are a famous Kerala breakfast made from raw rice, coconut milk, dry yeast and
+               a little bit of sugar.Appam is a famous dish from the Keralite repertoire of South Indian cooking.
+                This Kerala appam is an easy-to-make, instant version of the otherwise tough-to-make dish. 
+              Since yeast is used, the batter need not be fermented for long unlike the traditional version.
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>30 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>15 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>6 servings</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+              Tags : <a href="tag-template.html">beef</a>
+              <a href="tag-template.html">breakfast</a>
+              <a href="tag-template.html">pancakes</a>
+              <a href="tag-template.html">food</a>
+            </p>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+               
+Combine the soaked rice, cooked rice and approx. ½ cup of warm water and blend in a mixer to smooth paste. Keep aside.
+Combine the dry yeast, sugar and ½ cup of warm water in a bowl and mix well.
+Put a pinch of plain flour, cover and keep aside for 10 minutes
+Combine the ground paste, coconut milk, salt and sugar and mix well. 
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Add the prepared yeast mixture and mix very well. Cover and keep aside to ferment for 2 to 3 hours. 
+Heat an appachatti (appam kadhai) and grease it lightly with oil.
+Heat an appachatti (appam kadhai) and grease it lightly with oil. 
+Pour a big ladleful of the batter into it and slowly rotate the kadhai in a circular motion so that a thin layer forms on the side while it remains thick in the centre. 
+
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Put a little oil on the edges, cover with a lid and cook on a slow flame for 2 to 3 minutes, remove the appam when the centre fluffy part is cooked. 
+Repeat with the remaining batter to make 14 more appams.
+                Serve immediately with coconut stew.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">2 cups raw rice</p>
+              <p class="single-ingredient">1/2 cooked rice</p>
+              <p class="single-ingredient">2 cup coconut milk</p>
+              <p class="single-ingredient">2 tsp suger </p>
+              <p class="single-ingredient">1/2 tsp yeast</p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">nonstick pan</p>
+              <p class="single-tool">Hand blender</p>
+              <p class="single-tool">Measuring Spoons</p>
+              <p class="single-tool">Measuring Cups</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">kerala recipe</span> Built by
+        <a href="https://www.johnsmilga.com/">Coding Addict</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
